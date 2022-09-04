@@ -1,0 +1,131 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;;
+}
+.hero__section {
+    background:url(images/heroSectionBackground.png);
+    min-height: 60vh;
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 48px;
+    
+    align-items: center;
+    height: 60px;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: #fff;
+}
+.menu__container{
+    display: flex;
+    gap:20px;
+}
+.menu__container .user_icon{
+    height: 30px;
+    width: 30px;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: #fff 1px solid;
+
+}
+
+.hero__section_continer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+    height: calc(60vh-60px);
+    padding: 30px 30px;
+}
+.hero_section_logo{
+    
+    width: 300px;
+    height: auto;
+
+}
+.hero_section_headline{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+}
+.hero_section_input{
+    background-color: #fff;
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+    /*width: 400px;
+    height: 50px;*/
+    border-radius: 5px;
+    width: 60%;
+    justify-content:center;
+    align-items: center;
+}
+.hero_section_input_location, .hero_section_input_search{
+    border: none;
+    outline: none;
+    padding: 5px;
+}
+.hero_section_input_location{
+    width: 35%;
+    border-right: 1px solid #e0e0e0 ;
+}
+.hero_section_input_search{
+    width: 65%;
+}
+@media only screen and (max-width:600px) {
+    .menu__container .user_icon{
+        display: flex;
+    }
+    .link{
+        display: none;
+    }
+    .navbar{
+        padding: 16px;
+    }
+    .hero__section {
+        min-height: 70vh;
+    }
+    .hero_section_input{
+        background: transparent;
+        flex-direction: column;
+        width: 100%;
+        padding: 15px;
+        gap: 15px;
+    }
+    .hero_section_input_location{
+        width: 95%;
+    }
+    .hero_section_input_search{
+        width: 95%;
+    }
+    .hero_section_input_location, .hero_section_input_search{
+        border: none;
+        outline: none;
+        padding: 15px;
+        border-radius: 10px;
+    }
+    .hero__section_continer{
+        height: calc(70vh-60px);
+    }
+    .hero_section_headline{
+        text-align: center;
+        font-size: 20px;
+        width: 95%;
+    }
+    /*.hero_section_logo{
+        padding: 20px;
+        width:400px
+    }
+
+}
