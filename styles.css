@@ -126,6 +126,45 @@
     /*.hero_section_logo{
         padding: 20px;
         width:400px
-    }
+    }*/
 
+}
+.container{
+    margin: 3rem auto;
+    width: 80%;
+}
+.we_offer{
+    
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    /*justify-content: center;
+    align-items: center;*/
+    gap: 0.5rem;
+    
+    
+}
+.we_offer_cards{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    background:#fff;
+    overflow: hidden;
+    border: #e0e0e0 1px solid;
+    transition: all 0.3s ease;
+}
+.we_offer_cards img{
+    height: 150px;
+    width: 100%auto;
+    object-fit: cover;
+    object-position: center;
+}
+.we_offer_content{
+    font-size: 10px;
+}
+.comtainer_div{
+    display: inline-block;
+    flex-wrap: wrap;
+    flex-direction: row;
 }
