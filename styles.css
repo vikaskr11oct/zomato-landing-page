@@ -215,16 +215,16 @@
     position: relative;
 }
 .cards1 {
-    background-image: url(/images/collection2.jpg); 
+    background-image: url(images/collection2.jpg); 
 }
 .cards2 {
-    background-image: url(/images/collection1.jpg);
+    background-image: url(images/collection1.jpg);
 }
 .cards3 {
-    background-image: url(/images/collection3.jpg);   
+    background-image: url(images/collection3.jpg);   
 }
 .cards4 {
-    background-image: url(/images/collection4.jpg);
+    background-image: url(images/collection4.jpg);
 }
 .collection_cards_content{
     position: absolute;
