@@ -126,6 +126,140 @@
     /*.hero_section_logo{
         padding: 20px;
         width:400px
-    }
+    }*/
+}
+.container_we_offer{
+    margin: 3rem auto;
+    width: 80%;
+    
+}
+.container_div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+.we_offer_cards{
+    /*display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;*/
+    border-radius: 10px;
+    background:#fff;
+    overflow: hidden;
+    border: #e0e0e0 1px solid;
+    transition: all 0.3s ease;
+}
+.we_offer_cards img{
+    height: 160px;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.we_offer_content{
+   /* font-size: 10px;*/
+    padding: 10px;
+}
+.we_offer_content h2{
+    font-size: 20px;
+     font-weight: 400;
+ }
+ .we_offer_content h2{
+    font-size: 20px;
+     font-weight: 400;
+ }
+ .we_offer_content p{
+    font-size: 12px;
+    
+ }
+ .we_offer_cards:hover{
+    transform: scale(1.05);
+    /*cursor: pointer;*/
+ }
+.container2_collection{
+    margin: 3rem auto;
+    width: 80%;
+}
+.collection_heading{
+    font-weight: 500;
+}
+.collection_heading_tagline{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.heading_tagline{
+    font-size: 15px;
+    font-weight: 300;
+    color: lightslategray;
+}
+.heading_tagline_link_a{
+    text-decoration: none;
+    color: lightcoral;
+}
+.collection_cards_all{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    margin-top: 1.5rem;
 
+}
+.card{
+    height: 300px;
+    width: 240px;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.cards1 {
+    background-image: url(/images/collection2.jpg); 
+}
+.cards2 {
+    background-image: url(/images/collection1.jpg);
+}
+.cards3 {
+    background-image: url(/images/collection3.jpg);   
+}
+.cards4 {
+    background-image: url(/images/collection4.jpg);
+}
+.collection_cards_content{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    
+}
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    /*border: black 5px solid;*/
+    top: 0;
+    left: 0;
+    /*background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,2)0%,
+        rgba(0,0,0,0.5)50%,
+        rgba(0,0,0,0.5)80%,
+        );*/
+        background-image: linear-gradient(0deg, rgba(0,0,0,0.7)0%, rgba(0,0, 0, 0.3)50%,rgba(0, 0, 0, 0.3)80%);
+   
+}
+.collection_cards_content{
+    position: absolute;
+    color: #fff;
+    padding: 0.5rem 13px;
+}
+.collection_cards_content h4{
+    font-weight: 400;
+    font-size: 0.9rem;
+}
+.collection_cards_content p{
+    font-weight: 250;
+    font-size: 0.8rem;
+    letter-spacing: 0.5px;
 }
