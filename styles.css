@@ -263,3 +263,108 @@
     font-size: 0.8rem;
     letter-spacing: 0.5px;
 }
+
+.get__the_app{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 251, 247);
+    width:100%;
+    padding: 3rem 6rem;
+}
+.get__the_app .semicontainer{
+    display: flex;
+    width: 60%;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: center;
+    gap: 1.5rem;
+}
+.get__the_app .semicontainer .left{
+    flex: 2;
+}
+.get__the_app .semicontainer .left img{
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.get__the_app .semicontainer .right{
+    flex: 3;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.right h1{
+    font-weight: 400;
+    font-size: 2rem;
+}
+.right p{
+     font-size: 0.8rem;
+}
+.semicontainer .right .radio_button_container{
+    display: flex;
+    flex-wrap: wrap;
+    
+    gap: 1rem;
+}
+.input_container button,
+.input_container input{
+    padding: 10px 12px;
+    flex-wrap: wrap;
+}
+.input_container input{
+    flex: auto;
+    border: 1.5px solid;
+    outline: none;
+    border-radius: 5px;
+}
+.input_container button{
+    border: none;
+    background-color: rgb(239, 79, 95);
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+.download_app_container h5{
+    font-weight: 400;
+    color: gray;
+}
+.download_app_container div{
+    display: flex;
+   
+    gap: 1rem;
+
+}
+.download_app_container div img{
+    width: 35%;
+}
+@media only screen and (max-width:1300px){
+    .get__the_app .semicontainer .left{
+        flex: 1;
+    }
+    .get__the_app .semicontainer .right{
+        flex: 1;
+    }
+    .get__the_app .semicontainer{
+        width: 80%;
+    }
+}
+@media only screen and (max-width:900px){
+    .get__the_app {
+        padding: 2rem;
+    }
+    .get__the_app .semicontainer{
+        width: 90%;
+    }
+}
+@media only screen and (max-width:700px){
+    .get__the_app {
+        padding: 3rem 0;
+    }
+    .get__the_app .semicontainer{
+        width: 80%;
+        flex-direction: column;
+    }
+}
